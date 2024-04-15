@@ -1,0 +1,56 @@
+28/03/2024
+Manual - two types of testing 
+manual and automation 
+no tools required and tools are required 
+automation  - selienum , performance 
+manual testing :
+white box testing and black box testing 
+white - 
+ 1.unit testing ,
+ 2.integration testing 
+black-
+ 1.system tesing ,
+2. uat testing 
+means 
+White - testing in the code of application.(only developers wil do this type of testing )
+also called as closed box testing and its very time taken
+
+Black box testing - testing the appilicaton no need to know about code of an application
+also called as closed box testing and it is not time taken
+
+levels of testing :
+ 1.unit testing
+ 2.integration testing
+ 3.system testing
+ 4.uat testing 
+
+1. Unit testing : unit is a white box testing . developers will do testing on the code we ARE DOING
+                  unit is asingle component or module of an application.everyline of code need to execute once.
+		 
+                 EXAMPLE : Gmail--  registeration, login, logout etc...
+
+2. Integration testing : combining all the units, data communication between two module , both testers and developers can do
+         		 regist-- login-- logout
+			 123      234
+* Incremental integration testing
+1. topdown approach
+regi...login.. compose .. sent mail 
+2. button up approach
+sent ... compose ...login 
+3. sandwich testing  
+ bothe topdown and button up (everyting is perfect no bugs then we will move to system testing)
+
+ * non incremental integration testing : Full application testing	
+
+3 System testing : testerer will do the testing
+   *GUI testing---
+                  will test on the web applilications 
+
+   *Functional testing
+   *Non functional testing
+   *Usability testing 
+4.UAT -- User acceptance testing
+  before sending to the customer what ever testing is done is called as UAT testing
+  * alpha testing -- test environment
+  * Beta testing-- test is done by customer  (customer environment)
+		 

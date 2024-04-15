@@ -1,0 +1,42 @@
+12/04/2024
+
+Agile methodologies
+
+combination of incremantal and ittereative model
+ 
+ Agile is a framework
+ requirements will be gathered with the help of developer and tester
+ if we have 5 webpages 	
+		     1 webpage  will developed and tested and go to end user
+		     2 webpage will be developed and if any changes from 1 webpage will be added and tested and go t end user
+ Agile framework -- scrum framework ---5 to 10 mem
+	product owner(1)-
+				who involved for collecting the requirements form the customer
+			user stories(scenarios)
+	Scrum Master (1)
+	Developer
+	Tester
+
+Meeting -- scrum planning meeting
+ 
+User stories-- Scerarios
+Epic --- combination of user stories
+Tasks--- small tasks from the userstories
+
+orange hrm epic
+login
+admin
+
+epic
+us us us us us 
+t1
+t2
+t3
+t4
+srum master -- who interact with developers and testers and client
+
+meeting will be taken  standup call will be taken t3 
+yesterday --
+is any block 
+
+25 days--- time ----sprint planning meeting

@@ -1,0 +1,27 @@
+2/04/2024
+System testing : Black box testing
+1.GUI testing(Graphical user interface)---
+                  will test on the web applilications 
+2.Usability testing - help context - terms understanding by a nontechi as well
+
+3.Functional testing--- (after integration testing only we will perform functional testing)
+    1 object property
+	behavior of an element( text box, button, dropdown,upload buttons)
+    2 Data base testing
+	added ... db with the help of SQL-- 
+			if we delete the user from the db then front end should also be deleted 
+			
+UI(whithout code )          DB (with code)
+Black box                   white box-------grey box texting
+    3 Link existance and links execution
+    4 Calculation and manipulation 
+    5 Globalisation and localisation testing 
+4.Non functional testing-
+    here we will check the expectications expectations of cus: fast ,good, interactive, userfriendly
+    performance- at a same time if a sum no of clients opened the applicaition it should run smoothly
+               for performance testing we use tools like Jmeter , Load runner
+    stress testing-- 15 560 1 9000 (Open the website using less members and high members)
+    security testing ---
+    configurations testing -- 
+    Sanitation or garbage testing-- if acomponent or requirement which is not in frs
+    installation /uninstallation testing -- installation-- next .. next.. 

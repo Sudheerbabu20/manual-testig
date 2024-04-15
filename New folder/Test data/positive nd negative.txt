@@ -1,0 +1,25 @@
+positive and negative testing
+
+testing for regestration 
+ 
+1 & 2) For Name Field and last name Field :
+	positive : abcd, abcd ker, euige@, ;ssudegfudye, mdcdciu), 
+        negative : space
+outcome :
+for positive field is accepting the data
+for negative first name and last name was required
+
+3) Email field : 
+ 	positive: gdted@gamil.com  
+	negative :gey.dced@gmail,
+		  getcg@gmail.com,
+outcome for positive 
+outcome for negative data it is showing an error message as wrong email
+4) Password:
+	positive: p :123456 & cp: 123456,
+
+	negative: Space, min 6 char, pass 123456 and cp 234567
+outcome for positive we are able to register
+outcome for negative we are getting an error message pasword required
+		  
+	

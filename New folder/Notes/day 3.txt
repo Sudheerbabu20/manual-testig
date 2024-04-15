@@ -1,0 +1,61 @@
+4/4/2024
+link existance and links execution
+in frs doc : is  the link placed in the left corner or not, executing or not
+
+calculation and manupulation testing :
+banking , ecommerce in banks
+
+globalisation and localisation testing
+depens on the country the price displyed according to the country
+if the application resticting to the local  -gpay(india it dont  wrk in us)
+
+testing terminologies 
+1. retesting 
+       bug resolution (re testing the same feautre untill the the test was passed)
+2. Regression testing -
+ 	we are testing feature which are found bug and also the dependent modules 
+ex of reg
+studentr marks- e 20, m,20, s 20-- total mark 60 
+if we change the enlish marks it effects total marks
+
+sales ----accounts --- profit 
+3.positive and negative  testing - 
+ 	we test with positive values .....we test with negative values
+    only alphabets not spaces :
+   			positive: abdebdbe dbedekenje
+			negative: special char , numbers....
+4. end to end testing :
+ 		starting to ending of appilication at a time we can teest
+		login-- check balance-- sent amount-- verifyy otp- logout.
+5. smoke testing: basic and first testing 
+		checking build or appication is opening or not  
+		if testing is failed we will say to developers that the build is failed 
+		if testing is a=passed we start with functional testiing
+		This test can be done bye bothe developers and testers
+6.sanity testing:
+		stable build we will test 
+		we will test not in deep to all the modules are working fine or not
+		only tester	s will test 
+7. exploratory testing:
+ 		application is there but FRS or testcases are not.we need to create testcases with help of application as the tester 
+		should know some prior knowledge about this application.
+		This type mainly freshers to a company
+
+8. monkey/gorilla testing:
+		next step we cant identify for testing
+        	ex: mainly for gaming , candy crush game
+9.adhoc testing:
+		we dont have previous knowledge of an application ,we dont have frs,we dont have test cases
+
+
+100% bug resolution cant be done  
+all testing terms done 
+
+
+testing strategies 
+to create testcases or methodologies to create testdata:
+
+create a testdata 
+
+
+

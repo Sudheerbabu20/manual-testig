@@ -1,0 +1,40 @@
+CREATE TABLE student information
+(
+    Id int,
+    Name VARCHAR(30),
+    Branch VARCHAR(30),
+    Roll no int,
+    Address VARCHAR(30)
+    );
+    
+INSERT INTO student VALUES(1,"RAM","ECE","HYD")
+
+DELETE FROM student WHERE name='balu';
+
+SELECT * FROM student;
+
+UPDATE student
+set name='Pardhu', Address='HYD'
+WHERE id=2
+
+ALTER TABLE student
+DROP COLUMN address;
+
+ALTER TABLE student
+ADD COLUMN Marks int;
+
+
+SELECT * FROM student
+NATURAL JOIN marks
+
+SELECT student.Name,student.Address FROM student
+INNER JOIN names
+ON names.Name=student.Name;
+
+SELECT student.Address,Marks.Id FROM student
+INNER JOIN Marks
+ON Marks.Name=student.Name;
+
+SELECT student.Address,student.name,Marks.Id,marks.Tenth_marks FROM student
+LEFT JOIN marks
+ON Marks.Name=student.Name;

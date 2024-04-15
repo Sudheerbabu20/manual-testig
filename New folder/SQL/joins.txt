@@ -1,0 +1,27 @@
+inner join
+
+SELECT studentcourse.COURSE_ID,student.NAME,student.AGE FROM student
+INNER JOIN studentcourse
+ON studentcourse.ROLL_NO=student.ROLL_NO
+
+LEFT join
+SELECT studentcourse.COURSE_ID,student.NAME FROM student
+LEFT JOIN studentcourse
+ON studentcourse.ROLL_NO=student.ROLL_NO
+
+
+Right join
+
+SELECT studentcourse.COURSE_ID,student.NAME FROM student
+RIGHT JOIN studentcourse
+ON studentcourse.ROLL_NO=student.ROLL_NO
+
+these all are for sepecific columns
+if you need whole then you need to use the syntax as
+select * from table1
+left join 
+right join
+inner join table 2
+on condiotion only for left join right inner only
+
+

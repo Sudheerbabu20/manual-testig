@@ -1,0 +1,58 @@
+https://demo.nopcommerce.com/
+supriya yamini
+9:55 AM
+Manual 
+Automation
+
+
+Manual Testing:
+----------------
+
+White box testing:Testing in the code of application.Developers will do this testing.Clear box testing and time take
+
+1.unit testing
+2.integration testing
+
+black box testing:Testing the application no need to knew about code of an applciation.Testers will do this testing.Closed box testing and not time taken
+
+1.System testing
+2.UAT testing
+Levels of testing:
+----------------
+1.unit testing
+2.integration testing
+3.system testing
+4.uat testing
+
+1.Unit testing:unit is a white box testing.Developer will do testing.on the code we are doing.
+unit is a simgle component or module of an applciation.everyline of code need to execute once.
+
+gmail--regis,login,logout
+
+2.integration testing:Data communication between two modules.both by developers and also tester
+regist-->login-->logout
+123       234
+*Incremental integration testing
+1.topdown
+*Non incremental integration testing :full apllciation
+
+
+3.System testing:Testers
+*GUI testing
+*functional testing
+*Non functional testing
+*usability testing
+
+4.UAT-user acceptance testing
+*alpa testing--test environement
+*Beta testing--test in customer environment
+supriya yamini
+9:58 AM
+1.topdown approch
+regi--login---compose---Sent
+2.Button up approach
+Sent---Compose--login
+3.sandwich testing:
+both topdown and button up
+
+*Non incremental integration testing :full apllciation

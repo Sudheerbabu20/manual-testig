@@ -1,0 +1,130 @@
+1.explain about different levels of testing 15marks
+Ans)
+testing are of two types manual testing and automation testing
+and in manual testing we have 
+white box , black box, gray box 
+		1) unit testing 2) integration testing 3) system testing 4 ) UAT(user accepatance testing)
+unit testing and integration testing are comes under white box testing
+system testing and Uat testing comes under black box testing
+  1 unit testing : developers will perform this type of testing, code of the application must be required to test the application
+  2 integration testing : no  need of understanding the code of the application this will be performed by the testers
+                         incremantal integration testing is of 3 types
+			 top down approach : here we will test the applicaition from registarion to logout
+			 bottom up approach : here we will test the application from logout to registarion
+			 sandwhich testing : the combination of both top down and bottom up is called sandwhich testing
+
+  3 system testing : i system testing we have 
+			GUI testing : will test on web applications , 
+			functional testing : 1 object propertybehavior of an element( text box, button, dropdown,upload buttons)
+   					     2 Data base testing    3 Link existance and links execution   4 Calculation and manipulation and Globalisation and localisation testing  	
+		        non functional testing :
+   					 performance testsing- at a same time if a sum no of clients opened the applicaition it should run smoothly
+					 stress testing
+					 installation /uninstallation testing 
+   					 security testing
+					 Sanitation or garbage testing
+    					 configurations testing
+			usability testing
+     					 
+  					  
+  4 Uat testing  : is of two types alpha testing and beta testing 
+		alpha testing : which will be done test environment
+		beta testing : test is done by the customer
+
+
+2.create a students table
+   Insert 5 student details with name,marks of 3 subjects and roll number (5marks)
+
+ANS:
+   Create Database college
+   create Table student
+	(
+		rollnumber int,
+		Name VARCHAR(32),
+		Englishmarks int,
+		socialmarks int,
+		Telugumarks int,
+	 	Hindhimarks int
+		) ;
+after that inserting the values
+		insert into student values(1,'ram',80,90,100)
+		insert into student values(2,'shyam',90,70,50)
+		insert into student values(3,'bhuvan',58,56,56)
+		insert into student values(4,'bhanu',45,56,67)
+		insert into student values(5,'rani',55,57,89)
+
+3.what is retesting ,regressionteston,smoke and sanity testing 5 marks
+ANS:
+1. retesting testing : 
+while Retesting is done only for failed test cases.
+if a bug is raised for a particular for exaple  login page then we test the login module again until the test was passed  which is also called as bug resolution
+example login failed then we will do the retesting for the login fucnctionality
+2. Regression testing : Regression testing is performed for passed test cases
+ 	we are testing feature which are found bug and also the dependent modules 
+
+
+4.what is joins explain different types of jojns with examples 5 marks
+ans:
+Joins are of 5 types
+   1)natural join : joining two tables with no condtions which is also a type of select
+      command to exicute the natural join 
+		select * from table1
+		natural join tabel2
+   2)left join : which is also called as left outer join , if we consider two tables a and b if we use this left join it will select all the data from the table a and will show the results which are in common with table a and the uncommon part will be null
+		Select * from table1 
+		left join tabel2
+		on tabel.coulmnname=table.columnname
+   3) right join: which is also called as right outer join , if we consider two tables a and b if we use this right join it will select all the data from the table b and will show the results which are in common with table b and the uncommon part will be null
+		Select * from table1 
+		left join tabel2
+		on tabel.coulmnname=table.columnname
+   4) inner join: intersection of two tables 
+		Select * from table1 
+		Inner join tabel2
+		on tabel.coulmnname=table.columnname
+   5) Full join : the comnination of two tables all the data will be combined the same data will show you the results and a the unccommon data will show as null
+		Select * from table1 
+		left join tabel2
+		on tabel.coulmnname=table.columnname
+		union
+ 		Select * from table1 
+		right join tabel2
+		on tabel.coulmnname=table.columnname 
+
+5.what is ECP and BVA with examples  10marks
+
+ans:
+ 
+ecp :or equivalence class partitioning , when  the range between the two number are high we use ecp
+equally we need to classify 
+Equivalence partitioning or equivalence class partitioning (ECP) is a software testing 
+technique that divides the input data of a software unit  into partitions of equivalent data from which test cases can be derived
+, when  the range between the two number are high we use ecp
+	for example 1000- 2000
+		if we check a random number from 0-500 like 499 it is a invalid number which is also called as negative testing
+		if we check a random number from 500- 1000 like 501 it is a invalid number whic is also called as negative testing
+		if we check a random number from  1000-2000 like 1001 it is a valid number which is also called as  positive testing
+	 	if we check a random number from 2000--3000 like 3001 it is a invalid number which is also called as negative testing
+	
+BVA which is called as (boundary value analysyis),BVA is another Black Box Test Design Technique, 
+which is used to find the errors at boundaries of input domain (tests the behavior of a program at the input boundaries) 
+rather than finding those errors in the centre of input.
+ when the range between the two number are low we use bva
+	for example 100 to 6130 for that boundary values are 99 ,101 and 129, 131
+		positive : 101, 129
+		negative :101, 131
+
+
+6.write positive and negative values for searching a product in amazon 5marks
+
+positive: tshirts, books,pens,mobiles , tvs, electronics,
+negative: 1234565, @@@@@@, while we check for pen it shows book, 
+
+7.what is select in SQL..how we can  use different selects with examples a
+
+select can be used for a paritcular portion to be selected or else whole table to be selected  
+we use select in joins for example in inner join 
+examples : in a table we have english marks, maths marks , cince marks by using the select command in a large data base we can see the data if the english marks by using the select comand
+syntax
+  select* from table;
+

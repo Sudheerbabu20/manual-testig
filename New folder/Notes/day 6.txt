@@ -1,0 +1,53 @@
+10/04/2024
+ create test cases :
+	
+	Test Scenario : Functionality
+			What needs to be tested
+		For example : Login,compose,Sent,Logout
+	Test Case: Process how we can test this scenario --+ve ,-Ve
+			How to test
+		For example: Verify login with valid username and invalid Password
+			     Verify login with valid Username and invalid pass
+			     Verify Login with invalid username and invalid pass
+			     Verify Login with Invalid username and valid Password			
+	Test Steps : How we are doing testing
+			Verify login with vaid username and password
+			Steps:
+				1: Open Url
+				2: ENter Valid username and Valid password
+				3: Click login button
+	
+ Structure to write test case
+	TestCase ID: Unique
+	Test scenario  
+	Test case decription
+	Pre requisting
+	Test Steps
+	Expected Results 
+	Actual Results
+	Status/ result
+	Comments/ Reasons
+	Tester Name
+	Date When tester
+	Priority Of the test Cases
+
+Test Eniviornment: 
+ 	Setup --test  same as client environment
+
+Execute Test Cases -- priority
+
+Bug format
+	Bug Id
+	Test Cases
+	Test step to reproduce
+	Tester
+	Developer 
+	Status _ new ,progress, restest , close
+	Priority - Importacnec of bugs
+	Sevirity - Impact to appilication -- Blocker, critiacal ,majior, minor (should be asap 3..4 hrs,Untill next build, for major untill next build, minor he can rectify when he had time)
+	
+Bug Life cycle 
+	step 1: New -- developer (accept/reject/repeated/functioanlity/need more explanation)
+	Step 2 : Retest or regression
+	Step 3: if it is pass we will close or if it is faill we will send it again
+ 

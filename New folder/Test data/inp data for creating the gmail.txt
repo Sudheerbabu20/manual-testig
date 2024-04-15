@@ -1,0 +1,39 @@
+Positive and negative test data while creating the gmail account:
+ 
+
+**** For First Name ****
+*********positive data --- 1) ADFHERTFD 2) SSFDRCV FDTVRV 3)123 4) 1 5) A 6)* 7) #
+*********Negative data-----1) ADGFE@ERCDG 2) DGDGF@V123 3) 123@ 
+***********Outcome for positive it is directing to next page and for negative it is showning an error as --Are you sure you entered your name correctly?---
+
+!!!!!!!!For Date of birth!!!!!!
+!!!!!!!!!!!!!! Positive Data==== 1) selecting the date of birth and gender
+!!!!!!!!!!!!!! Negative Data === 1) april 31 1996,feb 31, 30, 2030
+				 2) Blanks ---(please select your complete date of birth, please select the gender)
+
+@@@@@@@@@@Choosing the email address @@@@@@@@
+@@@@@@@@@@@@@@@ Positive Data ----- 1)
+@@@@@@@@@@@@@@@ Negative Data ------ 1) 4444444 (username of 8or more charac must includeat least one alphabet)
+ 					2) ehgfed2334421343ewewewewewewewewe3434324@gmail.com (your user name must be beltween 6 and 30 char long)
+					3) @@@@@@@@@ (only alpha, numbers 0 to 9, periors . are allowed)
+					4) e2e22322e. ( last char of your username must be a letter a2z or a number)
+					5) .dededee (first char        )
+
+############ Password #####
+
+		password 		conf pass 		outcome 
+negative         qweweefded		blank              conform password
+		wdwdeewdewdwdw 		sdefdedefd		those passwords didnt match
+		123456			123456			Use 8 char or more
+		12345678		12345678 	 	please choose strong password , try mixing of letters ,number and symbols
+
+Positive 	1234567@1		1234567@1 		directing to next page
+
+$$$$$$$$$$$$$$$ Phone number $$$$$$$$
+
+ Negative   121323244343434   outcome  This phone number format is not recognized. Please check the country and number.
+	    	@123456789    outcome  	This phone number format is not recognized. Please check the country and number.
+
+positive 	2341675890    outcome  code will be sent
+
+

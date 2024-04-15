@@ -1,0 +1,58 @@
+5/4/2024
+
+  create a testdata 
+1. ECP(equivalance class partition)- equally partition the data
+    	eually we need to classify
+	* 1950---2050
+		*0-500--invalid -negative testing
+		*500- 1949--- invalid -- negative testing
+		*1950-2050---- valid -- positive
+	 	* 2051--3000--- invalid --- negative
+	* textbox -- either alphabets or numbers
+		*positive -- asdede, 23243, etc
+		*negative ---- fh34343, jjj HHH, 54 FF, !@#$jfj123, 56 defef %6ded
+2. BVA(boundary value analysyis)
+	*18 -- 60 for that boundary values are 17 ,19 and 59, 61
+		positive : 19 ,59
+		negative : 17, 61
+when the range bw the numbers are less then we use bva or else we use ecp
+ input domain testing - testing the ip data
+
+3. Decision table:
+
+ 	A	B
+	T	T	T
+	F	T	F
+	T	F	F
+	F	F	F
+
+	username and password 
+	BLANK		INVALID		ERROR
+	BLANK		BLANK		ERROR
+	BLANK		VALID		ERROR
+	INVALID 	BLANK		ERRR
+	INVALID		INVALID		ERROR
+	INVALID 	VALID		ERROR
+	VALID 		BLANK 		ERROR
+	VALID 		INVALID		ERROR
+	VALID 		VALID		HOMEPAGE
+
+111111111111111111111111111111111111111
+aplha
+number
+aplhanumeric
+8 --16
+1 speci
+
+accept
+not accept
+gmail--->registration
+login
+compose
+sent
+delete
+logout
+11111111111111111111111111111111111111111111111111111
+
+4. State transistion
+5. Error guessing

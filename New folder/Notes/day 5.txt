@@ -1,0 +1,39 @@
+08/04/2024
+
+4.state transition:
+
+example for ATM login
+	No  States 			Card insert 	Enterpin 	PinOK 	PinNotOK
+	S1) Start			S2
+	S2) Wait for pin				S3
+	S3) 1st Try							S6	S4
+	S4) 2nd Try							S6	S5
+	S5) 3rd Try							S6	S7
+	S6) Acess to account
+	S7) Eat Card
+ 
+Examples for login in Web 
+No States			Pass	Fail	
+S1 First Attempt		S4	S2
+S2 Second Attempt 		S4	S3
+S3 Third Attempt		S4	S5
+S4 Home Page
+S5 Account Locked 
+
+5.Error Guessing :	
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+STLC - Software Testing Life Cycle 
+      
+	Step1 : Functional Reguirement analysis
+	Step2 : Test Plan -Object, Include, how we can start, environment, testing Tools
+	Step3 : Create Test Cases 
+	Step4 :	Test Environment Setup
+	Step5 : Exceute testcase
+	Step6 : Identify bug and Bug Life cycle
+	Step7 : Test closure
+
+Con in next class

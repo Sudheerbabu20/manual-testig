@@ -1,0 +1,36 @@
+System:black box testing--testers
+gui--graphical user interface testing
+usablity--help context--terms
+
+functional--integratation testing
+*object properties--behaviour of element..
+*DB testing--Data base testing
+
+added-------------------------->db  SQL--apple_user--queries,,,delete apple_user
+apple_user<---------------------------------delete apple_user
+UI (wihtoutcode)                                DB(with code)
+Black box                                     white box---------------grey box test
+basic SQL queries---microsoft SQL server
+create
+insert
+delete
+select
+update
+drop
+joins
+
+*link existance and links execution
+*calculation and manipulation testing
+*globalisation and localisation testing
+nonfuntional-after functional-expectation--customer--fast,good,interactive,userfriendly
+
+performace--at a same time if a sum of no.of clients opened application it need to be run---1 lakh--tools-jmeter,load runner 
+stress--15  560 1 9000
+security--
+configurations--
+sanitation or grabage testing--if a componenet or requirement which is a not in FRS
+username
+password
+id-----------------bug
+        login
+installation/uninstallation testing---installation--next--next
